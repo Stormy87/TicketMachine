@@ -20,3 +20,4 @@ class Cart:
 
     def calculate_total(self):
         return sum(ticket.cena for ticket in self.items)
+    
